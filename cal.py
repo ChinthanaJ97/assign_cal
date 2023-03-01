@@ -1,11 +1,104 @@
 #TODO: Write the functions for arithmatic operations here
 #These functions should cover Task 2
 
+def add(): 
+    a= int(input ("Enter first number: "))
+    print(a)
+    b= int(input ("Enter second number: "))  
+    print(b)
+    a1=float(a) 
+    b1= float(b)
+    return print(a1,"+",b1,"=", a1+b1)
+
+
+def subtract():
+    a= int(input ("Enter first number: "))
+    print(a)
+    b= int(input ("Enter second number: "))  
+    print(b)
+    a1=float(a) 
+    b1= float(b)
+    return print(a1,"-",b1,"=", a1-b1)
+
+def multiply():
+    a= int(input ("Enter first number: "))
+    print(a)
+    b= int(input ("Enter second number: "))  
+    print(b)
+    a1=float(a) 
+    b1= float(b)
+    return print(a1,"*",b1,"=", a1*b1)
+
+def divide():
+     
+  try:
+    a= int(input ("Enter first number: "))
+    print(a)
+    b= int(input ("Enter second number: "))  
+    print(b)
+    a1=float(a) 
+    b1= float(b)
+    return print(a1,"/",b1,"=", a1/b1)
+  except Exception as e:
+    print(e)
+    
+
+def power():
+    a= int(input ("Enter first number: "))
+    print(a)
+    b= int(input ("Enter second number: "))  
+    print(b)
+    a1=float(a) 
+    b1= float(b)
+    return print(a1,"^",b1,"=", a1**b1)
+
+def reminder():
+    a= int(input ("Enter first number: "))
+    print(a)
+    b= int(input ("Enter second number: "))  
+    print(b)
+    a1=float(a) 
+    b1= float(b)
+    return print(a1,"%",b1,"=", a1%b1)
 
 #-------------------------------------
 #TODO: Write the select_op(choice) function here
 #This function sould cover Task 1 (Section 2) and Task 3
 
+def select_op(choice):
+  if (choice=="#"):
+    return -1
+  elif( choice=="$"):
+    return 0
+  elif (choice == "+"):
+    add()
+    
+
+  elif (choice=="-"):
+    subtract()
+
+  elif (choice=="*"):
+    multiply()
+
+  elif (choice=="/"):
+    divide()
+    print(a11,"/",b22"=", a11/b22)
+    
+
+  elif (choice=="^"):
+    power()
+
+  elif (choice=="%"):
+    reminder() 
+
+    
+
+
+
+
+  
+
+  
 
 
 
